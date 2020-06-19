@@ -43,19 +43,21 @@ public class testingScript : MonoBehaviour
                 {
                     tf.localPosition = tf.localPosition + new Vector3(0, 1, 0);
                 }
+
                 if (Input.GetKeyDown("down") | Input.GetKeyDown("s"))
                 {
                     tf.localPosition = tf.localPosition - new Vector3(0, 1, 0);
                 }
+
                 if (Input.GetKeyDown("left") | Input.GetKeyDown("a"))
                 {
                     tf.localPosition = tf.localPosition - new Vector3(1, 0, 0);
                 }
+
                 if (Input.GetKeyDown("right") | Input.GetKeyDown("d"))
                 {
                     tf.localPosition = tf.localPosition + new Vector3(1, 0, 0);
                 }
-
             }
             else
             {
@@ -67,7 +69,7 @@ public class testingScript : MonoBehaviour
 
                 if (Input.GetKey("down") | Input.GetKey("s"))
                 {
-                    tf.localPosition = tf.localPosition - new Vector3(0, speed, 0); ;
+                    tf.localPosition = tf.localPosition - new Vector3(0, speed, 0);
                 }
 
                 if (Input.GetKey("left") | Input.GetKey("a"))
